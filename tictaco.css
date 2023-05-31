@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.tic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+.tic p{
+    width: 98px;
+height: 34px;
+border-radius: 0;
+border: 0;
+margin: 10px 5px;
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.6);
+padding: auto;
+padding: 2px 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #5fff05;
+font-size: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.margin{
+    margin: 3px 0;
+    display: flex;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.but{
+/* height: 20px; */
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 1px solid black;
+width: 60px;
+background: transparent;
+margin: 0 20px;
+}
+
+.but2{
+
+color: white;
+}
+.but3{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 1px solid black;
+width: 100px;
+height: 50px;
+border-radius: 10px;
+background: transparent;
+margin: 20px 20px;
+cursor: pointer;
+
+}
+.gh{
+display: flex;
+
+}
