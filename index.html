@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tictaco.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://cdn.dribbble.com/userupload/3135334/file/original-c0f5ce973e4c2084921cc65c63c40591.png?resize=400x0">
-    
-
+    <link rel="stylesheet" href="tictactoe.css">
     <title>TIC TAC TOE</title>
 </head>
 
@@ -19,13 +13,13 @@
     <div class="p">
         <p>please select your turn</p>
     </div>
-    <div class="gh ">
+    <div class="gh">
     <button class="but" onclick="
     chance='player1'
-    ">X</button>
+    "><img src="x.png" alt="" width="30px" style="display: flex; justify-content: center ; align-items: center;"></button>
     <button class="but" onclick="
     chance='player2'
-    ">0</button>
+    "><img src="0.png" alt="" width="30px" style="display: flex; justify-content: center ; align-items: center;"></button>
 </div>
 
 </div>
@@ -48,7 +42,8 @@
             <p id="p9" onclick="start('p9')"></p>     
 
         </div>
-<p id="result" class="but3" style="font-size: 15px;"></p>
+<p id="result" class="but2"></p>
+
 
 <button class="but3" onclick="
 p1.innerHTML = '';
@@ -71,6 +66,7 @@ p1.innerHTML = '';
     p8.disabled = false;
     p9.disabled = false;
 
+    
     result.innerHTML = '';
     // chance = 'player1';
     // turn.innerHTML = Player +'1s turn';
